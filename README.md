@@ -1,24 +1,23 @@
-# README
+# README  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## This is the website source code for the guild in Star Wars The Old Republic - Misfits of the Galaxy.  
 
-Things you may want to cover:
+## Features  
 
-* Ruby version
+- Users can sign up for accounts  
+- Calendars to show events  
+- Discord webhook to show the Discord?  
 
-* System dependencies
+## Setup and Configuration  
 
-* Configuration
+**Ruby v. 2.7.2**  
+**Rails v. 6.0.3.2**  
 
-* Database creation
+**Databases:** SQLite (Test, Development), PostgreSQL (Production)  
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Gems Used:**  
+- _Bootstrap_ - Styling  
+- *Bcrypt* - Data Encryption  
+- *Figaro* - Environmental Variables  
+- *Devise* - Authentication  
+- *Pundit* - Authorization  
